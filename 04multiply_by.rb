@@ -9,3 +9,11 @@
 # > 5
 # > 10
 # > 15
+
+def multiply_by (array, num)
+    array.map! { |e| e * num }
+end
+
+puts multiply_by([1, 2, 3], 5).to_s
+
+ 

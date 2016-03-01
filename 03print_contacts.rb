@@ -17,3 +17,11 @@ contacts = {
   :Lenny => "444-444-4444",
   :Daniel => "777-777-7777"
 }
+
+def print_contacts (contacts)
+    contacts.each do |name, number|
+        puts name.to_s + " has a number of " + number
+    end
+end
+
+print_contacts(contacts)
